@@ -1,0 +1,24 @@
+<idea-plugin>
+    <id>ch.acanda.intellij.java-keystore-plugin</id>
+    <name>Java Keystore</name>
+    <vendor>Philip Graf</vendor>
+
+    <description><![CDATA[
+    The Java Keystore Plugin provides an editor for Java keystore files and
+    helps managing the keys and certificates in a keystore or truststore.
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <fileType name="Keystore" implementationClass="ch.acanda.intellij.keystore.KeystoreFileType"
+                  fieldName="INSTANCE"
+                  language="Keystore" extensions="jks"/>
+        <fileEditorProvider implementation="ch.acanda.intellij.keystore.editor.KeystoreEditorProvider"/>
+        <editorNotificationProvider implementation="ch.acanda.intellij.keystore.editor.InvalidKeystoreNotification"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>
