@@ -1,4 +1,5 @@
 <idea-plugin>
+
     <id>ch.acanda.intellij.java-keystore-plugin</id>
     <name>Java Keystore</name>
     <vendor>Philip Graf</vendor>
@@ -21,4 +22,5 @@
     <actions>
         <!-- Add your actions here -->
     </actions>
+
 </idea-plugin>
