@@ -1,12 +1,19 @@
-<idea-plugin>
+<idea-plugin url="https://github.com/acanda/keystore-intellij-plugin">
 
     <id>ch.acanda.intellij.java-keystore-plugin</id>
-    <name>Java Keystore</name>
-    <vendor>Philip Graf</vendor>
+    <name>Keystore Viewer</name>
+    <vendor url="https://github.com/acanda/keystore-intellij-plugin">Philip Graf</vendor>
 
     <description><![CDATA[
-    The Java Keystore Plugin provides an editor for Java keystore files and
-    helps managing the keys and certificates in a keystore or truststore.
+    <h2>Features</h2>
+    The Keystore Viewer Plugin provides a viewer for Java keystore and truststore files.
+
+    <h2>Github</h2>
+    <a href="https://github.com/acanda/keystore-intellij-plugin">Source</a> |
+    <a href="https://github.com/acanda/keystore-intellij-plugin/issues">Issues</a>
+
+    <h2>Attributions</h2>
+    Plugin logo: keychain by Gregor Cresnar from the Noun Project
     ]]></description>
 
     <depends>com.intellij.modules.platform</depends>
